@@ -21,3 +21,12 @@ pack(*args1)
 #character to interger
 s='0'
 print ord(s)
+
+
+#sorted() doesn't sort the container. its just used to print in the sorted order means it doesn't effect the container
+l1=[5,4,2,6,4,8,6,5]
+for i in sorted(l1):
+    print("After using sorted", i)
+
+for i in set(l1):
+    print ("After usig set",i)
